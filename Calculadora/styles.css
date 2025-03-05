@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+.container {
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #0383e4;
+    border-radius: 10px;
+}
+input, select, button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+}
+button {
+    background-color: #0e1bc9;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #3d16a8;
+}
