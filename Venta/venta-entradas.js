@@ -9,12 +9,12 @@ function calcularPrecio() {
     
     let costo;
     if (edad < 12) {
-        costo = "2€";
-    } else if (edad <= 18) {
-        costo = "Precio reducido: 5€";
-    } else {
-        costo = "Precio completo: 10€";
+        costo = "Precio reducido 3€";
+    } else if (edad <= 13) {
+        costo = "Precio completo: 7€";
+    } else if (edad >= 65) {
+        costo = "Precio jubilados: 5€";
     }
     
-    precio.textContent = `Costo de la entrada: ${costo}`; /*Esto es de openwebinar, que maravilla.*/
+    precio.textContent = `Costo de la entrada: ${costo}`;
 }
